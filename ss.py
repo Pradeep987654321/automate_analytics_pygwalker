@@ -13,7 +13,7 @@ st.set_page_config(
 st.title("Automatic Analytics")
  
 # Import your data
-df = pd.read_csv('F:/pygwalker/sales_data_sample.csv',sep=",", encoding='Latin-1')
+df = pd.read_csv('sales_data_sample.csv',sep=",", encoding='Latin-1')
  
 # Generate the HTML using Pygwalker
 pyg_html = pyg.to_html(df)
